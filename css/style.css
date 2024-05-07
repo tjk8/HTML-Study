@@ -34,3 +34,37 @@ a:hover {
 
 .contents_item h1 {
 }
+
+.header {
+  background-color: rgb(7, 65, 88);
+}
+.header_menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.header_menu1 {
+  margin: 3px;
+}
+.header_menu2 {
+  margin: 3px;
+}
+.header_menu3 {
+  margin: 3px;
+}
+.title {
+  color: rgb(0, 245, 102);
+  font-size: 60px;
+  margin-left: 2%;
+}
+.description {
+  margin-left: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  word-break: break-all;
+}
+.aaa {
+  color: rgb(232, 244, 255);
+  font-size: 20px;
+}
