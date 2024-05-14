@@ -36,7 +36,7 @@ a:hover {
 }
 
 .header {
-  background-color: rgb(7, 65, 88);
+  background-color: rgb(17, 31, 59);
 }
 .header_menu {
   display: flex;
@@ -66,5 +66,81 @@ a:hover {
 }
 .aaa {
   color: rgb(232, 244, 255);
+  font-size: 20px;
+}
+.membertitle {
+  background-color: #ffffff;
+}
+.memt {
+  color: rgb(0, 245, 102);
+  font-size: 30px;
+  margin-left: 2%;
+}
+.memberbox {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mem {
+  background-color: rgb(17, 31, 59);
+  width: 17%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.pic {
+  display: flex;
+  justify-content: center;
+}
+.pic img {
+  width: 85%;
+}
+.name {
+  color: #ffffff;
+  font-size: 20px;
+}
+.gametitle {
+  background-color: rgb(17, 31, 59);
+  display: flex;
+  align-items: flex-end;
+  height: 55px;
+}
+.gamt {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 2%;
+}
+.gamebox {
+  background-color: rgb(17, 31, 59);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 35px;
+}
+.gam {
+  background-color: rgb(245, 218, 242);
+  width: 20%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.gamepic {
+  display: flex;
+  justify-content: center;
+}
+.gamepic img {
+  width: 85%;
+}
+.gamename {
+  color: #312f2f;
   font-size: 20px;
 }
