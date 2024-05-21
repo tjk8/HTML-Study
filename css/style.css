@@ -144,3 +144,24 @@ a:hover {
   color: #312f2f;
   font-size: 20px;
 }
+.contacttitle {
+  background-color: rgb(240, 128, 156);
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 55px;
+}
+.cont {
+  color: rgb(135, 229, 241);
+  font-size: 20px;
+  margin-left: 5%;
+}
+.contactbox {
+  background-color: rgb(240, 128, 156);
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 35px;
+  padding-left: 5%;
+  width: 100%;
+}
