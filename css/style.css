@@ -52,6 +52,7 @@ a:hover {
 .header_menu3 {
   margin: 3px;
 }
+
 .title {
   color: rgb(0, 245, 102);
   font-size: 60px;
@@ -164,4 +165,35 @@ a:hover {
   padding-bottom: 35px;
   padding-left: 5%;
   width: 100%;
+}
+
+@media screen and (max-width: 499px) {
+  /*　画面サイズ 499pxまで適用　*/
+
+  .title {
+    font-size: 24px;
+  }
+
+  .aaa {
+    font-size: 15px;
+  }
+
+  .memt {
+    font-size: 20px;
+    margin-left: 2%;
+  }
+
+  .mem {
+    width: 35%;
+    margin: 1%;
+  }
+
+  .gamt {
+    font-size: 15px;
+  }
+
+  .gam {
+    width: 35%;
+    margin: 3%;
+  }
 }
